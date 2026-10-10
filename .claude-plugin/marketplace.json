@@ -1,0 +1,12 @@
+{
+  "name": "ai-writing-fix",
+  "description": "AI っぽさを抜くプラグインの配布先",
+  "owner": { "name": "OG-3" },
+  "plugins": [
+    {
+      "name": "ai-writing-fix",
+      "source": ".",
+      "description": "AI に書かせた日本語の文章から AI っぽさを抜く手順"
+    }
+  ]
+}
