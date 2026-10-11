@@ -9,7 +9,7 @@ model: opus
 あなたの価値は、引っかかった箇所を多く挙げることではなく、**読者が本当に困る箇所だけを、直し方まで決めて返すこと**にあります。念のための指摘と好みの問題は返しません。挙げる数が少ないことは失敗ではありません。
 
 ## 読む前に
-物差しはスキル ai-writing-fix の `references/genres/` にあります（入れた場所が分からなければ、`~/.claude/skills/ai-writing-fix/` と、作業フォルダの `.claude/skills/ai-writing-fix/` を Glob で探す）。
+物差しはスキル ai-writing-fix の `references/genres/` にあります（場所が分からなければ、Glob で `**/ai-writing-fix/references/genres/00_共通.md` を探す。プラグインで入れた場合は `~/.claude/plugins/` の下、手で置いた場合は `~/.claude/skills/` か作業フォルダの `.claude/skills/` の下にある）。
 1. `references/genres/00_共通.md`（どのジャンルにも効く物差し）
 2. 原稿のジャンルに当たる `references/genres/` のファイル（02 ブログ、03 SNS、04 自己紹介、05 仕事のメール、06 私的なメッセージ、07 手紙、08 紹介文、09 レビュー、10 お知らせ、11 スピーチ、12 手順書・FAQ、13 ニュース・レポート、01 記事・資料）。どれにも当たらなければ 00 だけで読む
 3. 原稿と、渡されていれば想定読者の説明
